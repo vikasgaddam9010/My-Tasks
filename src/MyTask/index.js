@@ -135,7 +135,7 @@ class MyTask extends Component {
               >
                 {tagsList.map(each => {
                   return (
-                    <option key={each.optionId} value={each.optionId}>
+                    <option key={each.optionId} value={each.displayText}>
                       {each.displayText}
                     </option>
                   )
